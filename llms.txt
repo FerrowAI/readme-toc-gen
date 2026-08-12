@@ -25,4 +25,4 @@ dry-run previews before writing anything to disk.
 npm install readme-toc-gen
 ```
 
-Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
+Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai

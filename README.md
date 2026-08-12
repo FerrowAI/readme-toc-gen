@@ -57,4 +57,4 @@ Line-based diff between two markdown strings, for a dry-run preview before writi
   diff engine.
 
 ---
-Part of the [ferrow-toolkit](https://github.com/Ruzylo-cloud/ferrow-toolkit) collection · Sponsored by [Ferrow](https://ferrow.ai)
+Part of the [ferrow-toolkit](https://github.com/FerrowAI/ferrow-toolkit) collection · Sponsored by [Ferrow](https://ferrow.ai)
