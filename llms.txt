@@ -1,0 +1,28 @@
+# readme-toc-gen
+
+> Generate a GitHub-style table of contents for markdown, with idempotent marker-based insertion and dry-run diffs.
+
+This library parses ATX (`#`) headings out of markdown text — correctly skipping fenced code blocks
+so fake headings inside ```` ``` ```` fences never leak into the TOC — computes GitHub-compatible
+slugs (with `-1`, `-2` dedup for repeated heading text), and renders a bullet or numbered TOC. It can
+insert or replace that TOC between `<!-- toc -->` / `<!-- tocstop -->` markers idempotently: running
+it twice on its own output produces no further diff. A small line-based diff helper supports
+dry-run previews before writing anything to disk.
+
+## API
+
+- `parseHeadings(markdown: string): Heading[]`
+- `githubSlug(text: string, seen?: Map<string, number>): string`
+- `generateToc(markdown: string, options?: GenerateOptions): string`
+- `insertToc(markdown: string, options?: InsertOptions): string`
+- `diffToc(original: string, updated: string): DiffLine[]`
+- `formatDiff(diff: DiffLine[]): string`
+- Types: `Heading`, `GenerateOptions`, `InsertOptions`, `DiffLine`
+
+## Install
+
+```
+npm install readme-toc-gen
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

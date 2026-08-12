@@ -1,0 +1,27 @@
+{
+  "name": "readme-toc-gen",
+  "version": "1.0.0",
+  "description": "Generate a GitHub-style table of contents for markdown files, with idempotent marker-based insertion and dry-run diffs. Zero runtime dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "markdown",
+    "table-of-contents",
+    "toc",
+    "readme",
+    "documentation",
+    "github-flavored-markdown"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
