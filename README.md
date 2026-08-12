@@ -1,4 +1,5 @@
 # readme-toc-gen
+![CI](https://github.com/FerrowAI/readme-toc-gen/actions/workflows/ci.yml/badge.svg)
 
 Generate a GitHub-style table of contents for markdown files, with idempotent marker-based
 insertion and dry-run diffs. Strict TypeScript, zero runtime dependencies.
