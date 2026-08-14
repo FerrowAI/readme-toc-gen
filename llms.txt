@@ -22,7 +22,7 @@ dry-run previews before writing anything to disk.
 ## Install
 
 ```
-npm install readme-toc-gen
+npm install @ferrow/readme-toc-gen
 ```
 
 Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai

@@ -1,5 +1,5 @@
 {
-  "name": "readme-toc-gen",
+  "name": "@ferrow/readme-toc-gen",
   "version": "1.0.0",
   "description": "Generate a GitHub-style table of contents for markdown files, with idempotent marker-based insertion and dry-run diffs. Zero runtime dependencies.",
   "main": "dist/index.js",
